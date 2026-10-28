@@ -22,3 +22,5 @@ Thumbs.db
 *.zip
 *.pem
 *.key
+# Keep the supplied unoptimised source local.
+/image.png

@@ -24,7 +24,7 @@ for (const root of document.querySelectorAll<HTMLElement>('[data-gallery]')) {
     } else {
       const placeholder = document.createElement('div'); placeholder.className = 'viewer-placeholder';
       const number = document.createElement('span'); number.textContent = String(all.findIndex(work => work.id === item.id) + 1).padStart(2, '0');
-      const message = document.createElement('p'); message.textContent = pt ? 'Espaço reservado para uma obra original autorizada.' : 'Reserved for an authorised original artwork.';
+      const message = document.createElement('p'); message.textContent = pt ? 'Espaço reservado para uma ilustração original autorizada.' : 'Reserved for an authorised original illustration.';
       placeholder.append(number, message); media.append(placeholder);
     }
     root.querySelectorAll<HTMLButtonElement>('[data-previous], [data-next]').forEach(button => button.disabled = visible.length < 2);

@@ -10,13 +10,13 @@ const files=walk(root), relative=f=>path.relative(root,f).split(path.sep).join('
 const routes=pages.flatMap(page=>['pt','en'].map(locale=>paths[locale][page]+'index.html'));
 const html=files.filter(f=>f.endsWith('.html'));
 assert.deepEqual(html.map(relative).sort(),[...routes,'404.html'].sort());
-const permitted=['.nojekyll','favicon.svg','robots.txt','sitemap.xml','fonts/bebas-neue-latin-400.woff2','fonts/space-grotesk-latin-variable.woff2','fonts/Bebas-Neue-OFL.txt','fonts/Space-Grotesk-OFL.txt'];
+const permitted=['images/home/panels-1024.webp','images/home/panels-2048.webp','.nojekyll','favicon.svg','robots.txt','sitemap.xml','fonts/bebas-neue-latin-400.woff2','fonts/space-grotesk-latin-variable.woff2','fonts/Bebas-Neue-OFL.txt','fonts/Space-Grotesk-OFL.txt'];
 for(const f of files)assert.ok(routes.includes(relative(f))||relative(f)==='404.html'||permitted.includes(relative(f))||/^images\/artworks\/[^/]+\.webp$/.test(relative(f))||/^_astro\/[^/]+\.(?:css|js)$/.test(relative(f)),'Unexpected public file: '+relative(f));
 const catalogue=JSON.parse(fs.readFileSync('src/data/artwork-catalogue.json','utf8'));
 assert.equal(catalogue.length,81);
 const expected=catalogue.flatMap(a=>[a.image.src,a.image.thumbnail]).map(s=>s.slice(1));
 assert.equal(new Set(expected).size,162);
-const webp=files.filter(f=>f.endsWith('.webp'));
+const webp=files.filter(f=>relative(f).startsWith('images/artworks/')&&f.endsWith('.webp'));
 assert.deepEqual(webp.map(relative).sort(),expected.sort());
 for(const f of webp)assert.equal(crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex'),crypto.createHash('sha256').update(fs.readFileSync(path.join('public',relative(f)))).digest('hex'));
 let checked=0;

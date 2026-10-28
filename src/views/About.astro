@@ -1,8 +1,8 @@
 ---
-import { href, t } from '../data/site';
+import { href, t, labels } from '../data/site';
 import type { Locale } from '../data/site';
 const { locale } = Astro.props as { locale: Locale };
 const base = import.meta.env.BASE_URL;
 ---
 <section class="page-heading wrap"><h1>{t(locale, 'Sobre', 'About')}</h1></section>
-<section class="wrap about-details"><h2>Pedro Pires</h2><p class="large-copy">{t(locale, 'Ilustração e Design', 'Illustration and Design')}</p><div class="about-links"><a class="arrow-link" href={href(locale, 'portfolio', base)}>Portfolio <span aria-hidden="true">↗</span></a><a class="arrow-link" href={href(locale, 'contact', base)}>{t(locale, 'Contactos', 'Contact')} <span aria-hidden="true">↗</span></a></div></section>
+<section class="wrap about-details"><h2>Pedro Pires</h2><p class="large-copy">{t(locale, 'Ilustração e Design', 'Illustration and Design')}</p><div class="about-links"><a class="arrow-link" href={href(locale, 'portfolio', base)}>{labels[locale].portfolio} <span aria-hidden="true">↗</span></a><a class="arrow-link" href={href(locale, 'contact', base)}>{t(locale, 'Contactos', 'Contact')} <span aria-hidden="true">↗</span></a></div></section>

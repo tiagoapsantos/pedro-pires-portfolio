@@ -10,7 +10,7 @@ export function getStaticPaths() { return (['pt', 'en'] as Locale[]).flatMap(loc
 const { locale, page } = Astro.props as { locale: Locale; page: Page };
 const descriptions: Record<Page, string> = {
   home: t(locale, 'Pedro Pires — Ilustração e Design.', 'Pedro Pires — Illustration and Design.'),
-  portfolio: t(locale, 'Portfolio de ilustração de Pedro Pires.', 'Illustration portfolio by Pedro Pires.'),
+  portfolio: t(locale, 'Galeria de ilustrações de Pedro Pires.', 'Illustration gallery by Pedro Pires.'),
   about: t(locale, 'Pedro Pires — Ilustração e Design.', 'Pedro Pires — Illustration and Design.'),
   contact: t(locale, 'Contactos de Pedro Pires: email e Facebook.', 'Contact Pedro Pires: email and Facebook.'),
 };

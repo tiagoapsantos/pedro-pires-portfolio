@@ -1,7 +1,8 @@
 ---
 import Gallery from '../components/Gallery.astro';
+import { labels } from '../data/site';
 import type { Locale } from '../data/site';
 const { locale } = Astro.props as { locale: Locale };
 ---
-<section class="page-heading wrap portfolio-heading"><h1>Portfolio</h1></section>
+<section class="page-heading wrap portfolio-heading"><h1>{labels[locale].portfolio}</h1></section>
 <div class="wrap portfolio-section"><Gallery locale={locale}/></div>

@@ -18,7 +18,7 @@ export interface Artwork {
 /** Actual local images; blank titles/credits are deliberately not invented. */
 export const artworks = catalogue as Artwork[];
 export const heroArtwork = artworks.find(item => item.id === 'digital-08')!;
-export const featuredArtworks = ['children-19', 'watercolour-15', 'comics-10', 'children-17', 'digital-04', 'digital-01'].map(id => artworks.find(item => item.id === id)!);
+export const featuredArtworks = ['children-19', 'children-17', 'watercolour-15', 'comics-10', 'digital-04', 'digital-01'].map(id => artworks.find(item => item.id === id)!);
 export function artworkCategory(item: Artwork, locale: Locale) { return categories.find(category => category.id === item.category)![locale]; }
 export function availableCategories(items: Artwork[]) { return categories.filter(category => items.some(item => item.category === category.id)); }
 export function artworkTitle(item: Artwork, locale: Locale) { return item.title[locale]?.trim() || (locale === 'pt' ? 'Imagem ' : 'Image ') + item.catalogueNumber; }

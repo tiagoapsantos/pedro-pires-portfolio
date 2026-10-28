@@ -8,8 +8,8 @@ export const paths: Record<Locale, Record<Page, string>> = {
   en: { home: 'en/', portfolio: 'en/portfolio/', about: 'en/about/', contact: 'en/contact/' },
 };
 export const labels: Record<Locale, Record<Page, string>> = {
-  pt: { home: 'Início', portfolio: 'Portfolio', about: 'Sobre', contact: 'Contactos' },
-  en: { home: 'Home', portfolio: 'Portfolio', about: 'About', contact: 'Contact' },
+  pt: { home: 'Início', portfolio: 'Galeria', about: 'Sobre', contact: 'Contactos' },
+  en: { home: 'Home', portfolio: 'Gallery', about: 'About', contact: 'Contact' },
 };
 export function href(locale: Locale, page: Page, base = '/') { return base.replace(/\/?$/, '/') + paths[locale][page]; }
 export const t = (locale: Locale, pt: string, en: string) => locale === 'pt' ? pt : en;
