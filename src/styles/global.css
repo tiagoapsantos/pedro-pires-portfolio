@@ -60,3 +60,23 @@ body:has(.home-hero) .footer-bottom>span:first-child{display:none}
 .portfolio-section .filter-button:hover{color:var(--ink)}
 @media(max-width:850px){.portfolio-section .filter-list{gap:10px 24px}.portfolio-section .filter-button{font-size:17px}}
 @media(max-width:600px){.portfolio-section .filter-list{gap:8px 20px}.portfolio-section .filter-button{font-size:16px;letter-spacing:-.02em;padding:10px 0}.portfolio-section .filter-bar{padding-bottom:20px}}
+
+/* Finishing rhythm: shared edges, natural artwork proportions and readable text. */
+.home-hero{padding-bottom:clamp(26px,3vw,40px)}
+.home-hero .home-opening{margin-top:10px;margin-bottom:clamp(18px,2vw,28px);line-height:1.04}
+.home-work .section-heading{margin-bottom:clamp(22px,2.4vw,32px)}
+.home-work .gallery-featured .gallery-grid{gap:clamp(24px,2.6vw,40px)}
+.portfolio-section>.gallery-grid{column-gap:clamp(24px,2.6vw,40px)}
+.site-header .wordmark>span{padding-bottom:7px;letter-spacing:.02em}
+.site-header .wordmark small{margin-top:7px;line-height:1.4}
+.page-heading{padding-block:clamp(36px,4vw,58px) clamp(28px,3vw,42px)}
+.portfolio-heading{padding-bottom:28px}
+.about-details .large-copy{max-width:58ch;font-size:clamp(18px,1.6vw,21px);line-height:1.75;letter-spacing:-.015em}
+.about-details h2{font-size:clamp(46px,5vw,70px);line-height:1.08;margin-bottom:20px}
+.about-links{flex-wrap:wrap;gap:12px 28px;margin-top:28px}
+.contact-grid{column-gap:clamp(32px,6vw,88px)}
+.contact-main,.contact-aside{padding-top:20px}
+.contact-aside p{max-width:38ch}
+.site-header nav a:hover,.language-link:hover,.arrow-link:hover,.footer-bottom a:hover,.viewer-arrow:hover:not(:disabled){color:#D8B477}
+a:focus-visible,button:focus-visible{outline-color:#D8B477}
+@media(max-width:600px){.home-work .gallery-featured .gallery-grid{gap:24px}.home-hero .home-opening{margin-top:8px;margin-bottom:18px}.site-header .wordmark>span{padding-bottom:7px}.site-header .wordmark small{margin-top:7px}.contact-grid{row-gap:30px}}
