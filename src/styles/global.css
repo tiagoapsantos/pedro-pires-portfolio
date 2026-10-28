@@ -51,3 +51,12 @@ body:has(.home-hero) .footer-bottom>span:first-child{display:none}
 .site-header .wordmark small{display:block;font-family:var(--sans);font-size:14px;font-weight:500;line-height:1.35;letter-spacing:.055em;text-transform:uppercase;color:var(--muted);margin-top:8px;white-space:nowrap}
 @media(max-width:1100px){.site-header .wordmark>span{font-size:52px}.site-header .wordmark small{font-size:13px}}
 @media(max-width:600px){.site-header .wordmark>span{font-size:50px;padding-bottom:7px}.site-header .wordmark small{font-size:12px;letter-spacing:.035em;margin-top:7px}}
+
+/* Gallery category navigation; counts remain available only to assistive technology. */
+.portfolio-section .filter-bar{display:block;padding-bottom:24px}
+.portfolio-section .filter-list{gap:12px 28px;align-items:center}
+.portfolio-section .filter-button{font-family:var(--sans);font-size:18px;font-weight:500;line-height:1.35;letter-spacing:-.025em;padding:12px 0;min-height:48px;border-bottom-width:2px;color:var(--muted)}
+.portfolio-section .filter-button[aria-pressed=true]{color:var(--ink);border-bottom-color:#D8B477}
+.portfolio-section .filter-button:hover{color:var(--ink)}
+@media(max-width:850px){.portfolio-section .filter-list{gap:10px 24px}.portfolio-section .filter-button{font-size:17px}}
+@media(max-width:600px){.portfolio-section .filter-list{gap:8px 20px}.portfolio-section .filter-button{font-size:16px;letter-spacing:-.02em;padding:10px 0}.portfolio-section .filter-bar{padding-bottom:20px}}
