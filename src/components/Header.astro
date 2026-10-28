@@ -1,0 +1,11 @@
+---
+import { href, labels, pages, t } from '../data/site';
+import type { Locale, Page } from '../data/site';
+const { locale, page } = Astro.props as { locale: Locale; page: Page };
+const base = import.meta.env.BASE_URL;
+const other = locale === 'pt' ? 'en' : 'pt';
+---
+<header class="site-header wrap">
+  <a class="wordmark" href={href(locale, 'home', base)} aria-label={'Pedro Pires — ' + t(locale, 'Ilustração e Design', 'Illustration and Design')}><span>Pedro Pires</span><small>{t(locale, 'Ilustração e Design', 'Illustration and Design')}</small></a>
+  <div class="header-navigation"><nav aria-label={t(locale, 'Navegação principal', 'Main navigation')}>{pages.map(key => <a href={href(locale, key, base)} aria-current={page === key ? 'page' : undefined}>{labels[locale][key]}</a>)}</nav><a class="language-link" href={href(other, page, base)} lang={other} hreflang={other} aria-label={t(locale, 'Ver esta página em inglês', 'View this page in Portuguese')}>{other.toUpperCase()} <span aria-hidden="true">↗</span></a></div>
+</header>

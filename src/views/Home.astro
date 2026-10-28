@@ -1,0 +1,9 @@
+---
+import Gallery from '../components/Gallery.astro';
+import { href, t } from '../data/site';
+import type { Locale } from '../data/site';
+const { locale } = Astro.props as { locale: Locale };
+const base = import.meta.env.BASE_URL;
+---
+<section class="hero wrap"><div class="hero-copy"><h1>Pedro<br/>Pires<span class="sr-only"> — {t(locale, 'Ilustração e Design', 'Illustration and Design')}</span></h1><p class="hero-discipline">{t(locale, 'Ilustração e Design', 'Illustration and Design')}</p><a class="arrow-link" href={href(locale, 'portfolio', base)}>Portfolio <span aria-hidden="true">↗</span></a></div><Gallery locale={locale} spotlight/></section>
+<section class="work-section wrap"><div class="section-heading"><h2>{t(locale, 'Selecção de obras', 'Selected work')}</h2><a class="arrow-link" href={href(locale, 'portfolio', base)}>Portfolio <span aria-hidden="true">↗</span></a></div><Gallery locale={locale} featured/></section>

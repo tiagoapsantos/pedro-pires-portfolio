@@ -1,0 +1,68 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import assert from 'node:assert/strict';
+import { basePath, siteOrigin, siteUrl } from '../src/data/publication.ts';
+import { paths, pages, href } from '../src/data/site.ts';
+const root=path.resolve('dist');
+const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(dir,e.name)):[path.join(dir,e.name)]);
+const files=walk(root), relative=f=>path.relative(root,f).split(path.sep).join('/');
+const routes=pages.flatMap(page=>['pt','en'].map(locale=>paths[locale][page]+'index.html'));
+const html=files.filter(f=>f.endsWith('.html'));
+assert.deepEqual(html.map(relative).sort(),[...routes,'404.html'].sort());
+const permitted=['.nojekyll','favicon.svg','robots.txt','sitemap.xml','fonts/bebas-neue-latin-400.woff2','fonts/space-grotesk-latin-variable.woff2','fonts/Bebas-Neue-OFL.txt','fonts/Space-Grotesk-OFL.txt'];
+for(const f of files)assert.ok(routes.includes(relative(f))||relative(f)==='404.html'||permitted.includes(relative(f))||/^images\/artworks\/[^/]+\.webp$/.test(relative(f))||/^_astro\/[^/]+\.(?:css|js)$/.test(relative(f)),'Unexpected public file: '+relative(f));
+const catalogue=JSON.parse(fs.readFileSync('src/data/artwork-catalogue.json','utf8'));
+assert.equal(catalogue.length,81);
+const expected=catalogue.flatMap(a=>[a.image.src,a.image.thumbnail]).map(s=>s.slice(1));
+assert.equal(new Set(expected).size,162);
+const webp=files.filter(f=>f.endsWith('.webp'));
+assert.deepEqual(webp.map(relative).sort(),expected.sort());
+for(const f of webp)assert.equal(crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex'),crypto.createHash('sha256').update(fs.readFileSync(path.join('public',relative(f)))).digest('hex'));
+let checked=0;
+function resolve(ref,from){
+  if(!ref||/^(?:mailto:|tel:|data:)/.test(ref))return;
+  const source=new URL(basePath+relative(from),siteOrigin);
+  const url=new URL(ref.replaceAll('&amp;','&'),source);
+  if(url.origin!==siteOrigin)return;
+  assert.ok(url.pathname.startsWith(basePath),'Reference outside project base: '+ref);
+  const local=decodeURIComponent(url.pathname.slice(basePath.length));
+  let target=path.resolve(root,local);
+  assert.ok(target===root||target.startsWith(root+path.sep),'Resource escapes build');
+  if(fs.existsSync(target)&&fs.statSync(target).isDirectory())target=path.join(target,'index.html');
+  assert.ok(fs.existsSync(target),'Missing reference '+ref+' in '+relative(from));
+  if(url.hash&&target.endsWith('.html'))assert.ok(fs.readFileSync(target,'utf8').includes('id="'+url.hash.slice(1)+'"'),'Missing anchor '+ref);
+  checked++;
+}
+for(const f of files.filter(f=>/\.(?:html|css)$/.test(f))){
+  const s=fs.readFileSync(f,'utf8');
+  for(const m of s.matchAll(/(?:href|src)="([^"<>]+)"/g))resolve(m[1],f);
+  for(const m of s.matchAll(/url\(["']?([^"')]+)["']?\)/g))resolve(m[1],f);
+  for(const m of s.matchAll(/srcset="([^"]+)"/g))for(const entry of m[1].split(','))resolve(entry.trim().split(/\s+/)[0],f);
+  if(!f.endsWith('.html'))continue;
+  const ids=[...s.matchAll(/\sid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size);
+  assert.ok(!/<form\b/i.test(s));assert.ok(!/class="(?:artwork-caption|viewer-caption)"/.test(s));
+  assert.ok(/<html lang="(?:pt-PT|en)"/.test(s));
+  if(relative(f)==='404.html'){assert.ok(s.includes('content="noindex, follow"'));assert.ok(!s.includes('rel="canonical"'));continue;}
+  assert.ok(s.includes('name="robots" content="index, follow"'));
+  const locale=relative(f).startsWith('en/')?'en':'pt';
+  const page=pages.find(page=>paths[locale][page]+'index.html'===relative(f));
+  const absolute=language=>new URL(href(language,page,basePath),siteOrigin).href;
+  assert.ok(s.includes('rel="canonical" href="'+absolute(locale)+'"'));
+  assert.ok(s.includes('hreflang="pt-PT" href="'+absolute('pt')+'"'));
+  assert.ok(s.includes('hreflang="en" href="'+absolute('en')+'"'));
+  assert.ok(s.includes('property="og:url" content="'+absolute(locale)+'"'));
+}
+const modules=html.flatMap(f=>[...fs.readFileSync(f,'utf8').matchAll(/<script type="module">([\s\S]*?)<\/script>/g)].map(m=>m[1]));
+assert.equal(modules.length,4);
+for(const s of modules)assert.ok(!s.includes('catalogueNumber'));
+assert.ok(fs.existsSync(path.join(root,'.nojekyll')));
+const sitemap=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');
+const locations=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);
+assert.deepEqual(locations.sort(),routes.map(r=>siteUrl+r.replace(/index.html$/,'')).sort());
+assert.ok(!locations.some(s=>s.includes('404')));
+for(const url of locations)resolve(url,path.join(root,'sitemap.xml'));
+const robots=fs.readFileSync(path.join(root,'robots.txt'),'utf8');
+assert.ok(robots.includes('Sitemap: '+siteUrl+'sitemap.xml'));assert.ok(!/Disallow:\s*\//.test(robots));
+const total=files.reduce((n,f)=>n+fs.statSync(f).size,0);
+console.log(JSON.stringify({pages:routes.length,errorPage:true,webp:webp.length,files:files.length,totalBytes:total,MiB:+(total/1048576).toFixed(3),localReferencesChecked:checked,sitemapEntries:locations.length,maxModuleBytes:Math.max(...modules.map(s=>Buffer.byteLength(s)))},null,2));

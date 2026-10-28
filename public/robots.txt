@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /pedro-pires-portfolio/
+
+Sitemap: https://tiagoapsantos.github.io/pedro-pires-portfolio/sitemap.xml

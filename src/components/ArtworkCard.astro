@@ -1,0 +1,11 @@
+---
+import type { Artwork } from '../data/artworks';
+import { t } from '../data/site';
+import type { Locale } from '../data/site';
+const { item, locale, priority = false, sizes = "(max-width:600px) 100vw, 50vw" } = Astro.props as { item: Artwork; index: number; sizes?: string; locale: Locale; priority?: boolean };
+---
+<article class="artwork-card" id={item.id} data-card data-category={item.category}>
+  <button class="artwork-open" data-artwork={item.id} aria-label={t(locale, 'Ampliar: ', 'Enlarge: ') + (item.image?.alt[locale] || item.description[locale])} aria-haspopup="dialog">
+    {item.image ? <img src={import.meta.env.BASE_URL + (priority ? item.image.src : item.image.thumbnail || item.image.src).replace(/^\//, '')} srcset={!priority && item.image.thumbnail ? `${import.meta.env.BASE_URL + item.image.thumbnail.replace(/^\//, '')} ${item.image.thumbnailWidth}w, ${import.meta.env.BASE_URL + item.image.src.replace(/^\//, '')} ${item.image.width}w` : undefined} sizes={sizes} width={priority ? item.image.width : item.image.thumbnailWidth || item.image.width} height={priority ? item.image.height : item.image.thumbnailHeight || item.image.height} alt={item.image.alt[locale]} loading={priority ? "eager" : "lazy"} fetchpriority={priority ? "high" : undefined} decoding="async"/> : <span class="missing-artwork">{t(locale, 'Imagem indisponível', 'Image unavailable')}</span>}
+  </button>
+</article>

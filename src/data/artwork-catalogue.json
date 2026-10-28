@@ -1,0 +1,2513 @@
+[
+  {
+    "id": "comics-01",
+    "catalogueNumber": "001",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Página de banda desenhada com personagens em ambientes históricos e balões de diálogo.",
+      "en": "Comic page with characters in historical settings and speech balloons."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/comics-01.webp",
+      "thumbnail": "/images/artworks/comics-01-thumb.webp",
+      "width": 827,
+      "height": 1169,
+      "thumbnailWidth": 566,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Página de banda desenhada com personagens em ambientes históricos e balões de diálogo.",
+        "en": "Comic page with characters in historical settings and speech balloons."
+      }
+    }
+  },
+  {
+    "id": "comics-02",
+    "catalogueNumber": "002",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Página narrativa com figuras a cavalo e diálogo entre personagens.",
+      "en": "Narrative page with figures on horseback and dialogue."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/comics-02.webp",
+      "thumbnail": "/images/artworks/comics-02-thumb.webp",
+      "width": 827,
+      "height": 1169,
+      "thumbnailWidth": 566,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Página narrativa com figuras a cavalo e diálogo entre personagens.",
+        "en": "Narrative page with figures on horseback and dialogue."
+      }
+    }
+  },
+  {
+    "id": "comics-03",
+    "catalogueNumber": "003",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Composição vertical com tecido vermelho sobre uma paisagem e texto impresso.",
+      "en": "Vertical composition with red fabric above a landscape and printed text."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/comics-03.webp",
+      "thumbnail": "/images/artworks/comics-03-thumb.webp",
+      "width": 992,
+      "height": 1403,
+      "thumbnailWidth": 566,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Composição vertical com tecido vermelho sobre uma paisagem e texto impresso.",
+        "en": "Vertical composition with red fabric above a landscape and printed text."
+      }
+    }
+  },
+  {
+    "id": "comics-04",
+    "catalogueNumber": "004",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Página com cenas de rua, arquitectura antiga e personagens em diálogo.",
+      "en": "Page with street scenes, old architecture and characters in conversation."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/comics-04.webp",
+      "thumbnail": "/images/artworks/comics-04-thumb.webp",
+      "width": 827,
+      "height": 1169,
+      "thumbnailWidth": 566,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Página com cenas de rua, arquitectura antiga e personagens em diálogo.",
+        "en": "Page with street scenes, old architecture and characters in conversation."
+      }
+    }
+  },
+  {
+    "id": "comics-05",
+    "catalogueNumber": "005",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Duas vinhetas com personagens num ambiente rural.",
+      "en": "Two panels with characters in a rural setting."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/comics-05.webp",
+      "thumbnail": "/images/artworks/comics-05-thumb.webp",
+      "width": 868,
+      "height": 655,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 483,
+      "alt": {
+        "pt": "Duas vinhetas com personagens num ambiente rural.",
+        "en": "Two panels with characters in a rural setting."
+      }
+    }
+  },
+  {
+    "id": "comics-06",
+    "catalogueNumber": "006",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Sequência de vinhetas com uma personagem de chapéu e interiores históricos.",
+      "en": "Panel sequence with a character wearing a hat and historical interiors."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/comics-06.webp",
+      "thumbnail": "/images/artworks/comics-06-thumb.webp",
+      "width": 885,
+      "height": 1268,
+      "thumbnailWidth": 558,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Sequência de vinhetas com uma personagem de chapéu e interiores históricos.",
+        "en": "Panel sequence with a character wearing a hat and historical interiors."
+      }
+    }
+  },
+  {
+    "id": "comics-07",
+    "catalogueNumber": "007",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Duas cenas verticais com uma personagem e uma mesa.",
+      "en": "Two vertical scenes with a character and a table."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/comics-07.webp",
+      "thumbnail": "/images/artworks/comics-07-thumb.webp",
+      "width": 510,
+      "height": 886,
+      "thumbnailWidth": 460,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Duas cenas verticais com uma personagem e uma mesa.",
+        "en": "Two vertical scenes with a character and a table."
+      }
+    }
+  },
+  {
+    "id": "comics-08",
+    "catalogueNumber": "008",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Conjunto de três páginas de banda desenhada em tons azuis e escuros.",
+      "en": "Set of three comic pages in dark blue tones."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/comics-08.webp",
+      "thumbnail": "/images/artworks/comics-08-thumb.webp",
+      "width": 1800,
+      "height": 863,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 307,
+      "alt": {
+        "pt": "Conjunto de três páginas de banda desenhada em tons azuis e escuros.",
+        "en": "Set of three comic pages in dark blue tones."
+      }
+    }
+  },
+  {
+    "id": "comics-09",
+    "catalogueNumber": "009",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Duas personagens numa rua, com fachadas e luz nocturna.",
+      "en": "Two characters on a street with building facades and night lighting."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/comics-09.webp",
+      "thumbnail": "/images/artworks/comics-09-thumb.webp",
+      "width": 992,
+      "height": 532,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 343,
+      "alt": {
+        "pt": "Duas personagens numa rua, com fachadas e luz nocturna.",
+        "en": "Two characters on a street with building facades and night lighting."
+      }
+    }
+  },
+  {
+    "id": "comics-10",
+    "catalogueNumber": "010",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Página de banda desenhada em tons dourados com diálogo.",
+      "en": "Comic page in golden tones with dialogue."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/comics-10.webp",
+      "thumbnail": "/images/artworks/comics-10-thumb.webp",
+      "width": 1273,
+      "height": 1800,
+      "thumbnailWidth": 566,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Página de banda desenhada em tons dourados com diálogo.",
+        "en": "Comic page in golden tones with dialogue."
+      }
+    }
+  },
+  {
+    "id": "comics-11",
+    "catalogueNumber": "011",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Conjunto de três páginas com criaturas e ambientes fantásticos.",
+      "en": "Set of three pages with creatures and fantasy settings."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/comics-11.webp",
+      "thumbnail": "/images/artworks/comics-11-thumb.webp",
+      "width": 1711,
+      "height": 818,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 306,
+      "alt": {
+        "pt": "Conjunto de três páginas com criaturas e ambientes fantásticos.",
+        "en": "Set of three pages with creatures and fantasy settings."
+      }
+    }
+  },
+  {
+    "id": "comics-12",
+    "catalogueNumber": "012",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Personagem de chapéu num interior com escadaria e balão de fala.",
+      "en": "Character wearing a hat in an interior with stairs and a speech balloon."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/comics-12.webp",
+      "thumbnail": "/images/artworks/comics-12-thumb.webp",
+      "width": 744,
+      "height": 600,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 516,
+      "alt": {
+        "pt": "Personagem de chapéu num interior com escadaria e balão de fala.",
+        "en": "Character wearing a hat in an interior with stairs and a speech balloon."
+      }
+    }
+  },
+  {
+    "id": "comics-13",
+    "catalogueNumber": "013",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Duas vinhetas com interiores e uma personagem de chapéu.",
+      "en": "Two panels with interiors and a character wearing a hat."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/comics-13.webp",
+      "thumbnail": "/images/artworks/comics-13-thumb.webp",
+      "width": 827,
+      "height": 598,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 463,
+      "alt": {
+        "pt": "Duas vinhetas com interiores e uma personagem de chapéu.",
+        "en": "Two panels with interiors and a character wearing a hat."
+      }
+    }
+  },
+  {
+    "id": "comics-14",
+    "catalogueNumber": "014",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Retrato de uma personagem jovem junto a arquitectura urbana.",
+      "en": "Portrait of a young character beside urban architecture."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/comics-14.webp",
+      "thumbnail": "/images/artworks/comics-14-thumb.webp",
+      "width": 744,
+      "height": 672,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 578,
+      "alt": {
+        "pt": "Retrato de uma personagem jovem junto a arquitectura urbana.",
+        "en": "Portrait of a young character beside urban architecture."
+      }
+    }
+  },
+  {
+    "id": "digital-01",
+    "catalogueNumber": "015",
+    "category": "editorial",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Capa ilustrada com figura encapuzada azul e lettering impresso.",
+      "en": "Illustrated cover with a blue cloaked figure and printed lettering."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/digital-01.webp",
+      "thumbnail": "/images/artworks/digital-01-thumb.webp",
+      "width": 709,
+      "height": 1063,
+      "thumbnailWidth": 534,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Capa ilustrada com figura encapuzada azul e lettering impresso.",
+        "en": "Illustrated cover with a blue cloaked figure and printed lettering."
+      }
+    }
+  },
+  {
+    "id": "digital-02",
+    "catalogueNumber": "016",
+    "category": "editorial",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Capa com figura feminina, paisagem e composição tipográfica.",
+      "en": "Cover with a female figure, landscape and typographic composition."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/digital-02.webp",
+      "thumbnail": "/images/artworks/digital-02-thumb.webp",
+      "width": 550,
+      "height": 827,
+      "thumbnailWidth": 532,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Capa com figura feminina, paisagem e composição tipográfica.",
+        "en": "Cover with a female figure, landscape and typographic composition."
+      }
+    }
+  },
+  {
+    "id": "digital-03",
+    "catalogueNumber": "017",
+    "category": "editorial",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Capa com personagem de vampiro em estilo humorístico.",
+      "en": "Cover with a vampire character in a humorous style."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/digital-03.webp",
+      "thumbnail": "/images/artworks/digital-03-thumb.webp",
+      "width": 650,
+      "height": 945,
+      "thumbnailWidth": 550,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Capa com personagem de vampiro em estilo humorístico.",
+        "en": "Cover with a vampire character in a humorous style."
+      }
+    }
+  },
+  {
+    "id": "digital-04",
+    "catalogueNumber": "018",
+    "category": "digital",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Figura com armadura, cavalo e aves sobre uma paisagem.",
+      "en": "Armoured figure, horse and birds above a landscape."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/digital-04.webp",
+      "thumbnail": "/images/artworks/digital-04-thumb.webp",
+      "width": 701,
+      "height": 815,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 744,
+      "alt": {
+        "pt": "Figura com armadura, cavalo e aves sobre uma paisagem.",
+        "en": "Armoured figure, horse and birds above a landscape."
+      }
+    }
+  },
+  {
+    "id": "digital-05",
+    "catalogueNumber": "019",
+    "category": "digital",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Figura sentada num interior, com luz azul e dourada.",
+      "en": "Seated figure in an interior with blue and golden light."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/digital-05.webp",
+      "thumbnail": "/images/artworks/digital-05-thumb.webp",
+      "width": 648,
+      "height": 647,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 639,
+      "alt": {
+        "pt": "Figura sentada num interior, com luz azul e dourada.",
+        "en": "Seated figure in an interior with blue and golden light."
+      }
+    }
+  },
+  {
+    "id": "digital-06",
+    "catalogueNumber": "020",
+    "category": "digital",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Figura de vestido claro com luz dourada e fundo escuro.",
+      "en": "Figure in a light dress with golden light and a dark background."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/digital-06.webp",
+      "thumbnail": "/images/artworks/digital-06-thumb.webp",
+      "width": 602,
+      "height": 848,
+      "thumbnailWidth": 568,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Figura de vestido claro com luz dourada e fundo escuro.",
+        "en": "Figure in a light dress with golden light and a dark background."
+      }
+    }
+  },
+  {
+    "id": "digital-07",
+    "catalogueNumber": "021",
+    "category": "digital",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Composição horizontal com duas personagens e paisagem ao fundo.",
+      "en": "Horizontal composition with two characters and a background landscape."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/digital-07.webp",
+      "thumbnail": "/images/artworks/digital-07-thumb.webp",
+      "width": 921,
+      "height": 531,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 369,
+      "alt": {
+        "pt": "Composição horizontal com duas personagens e paisagem ao fundo.",
+        "en": "Horizontal composition with two characters and a background landscape."
+      }
+    }
+  },
+  {
+    "id": "digital-08",
+    "catalogueNumber": "022",
+    "category": "digital",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Rosto em primeiro plano, luz vermelha e passagem iluminada ao fundo.",
+      "en": "Close-up face, red light and an illuminated passage in the background."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/digital-08.webp",
+      "thumbnail": "/images/artworks/digital-08-thumb.webp",
+      "width": 1274,
+      "height": 1800,
+      "thumbnailWidth": 566,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Rosto em primeiro plano, luz vermelha e passagem iluminada ao fundo.",
+        "en": "Close-up face, red light and an illuminated passage in the background."
+      }
+    }
+  },
+  {
+    "id": "digital-09",
+    "catalogueNumber": "023",
+    "category": "digital",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Duas figuras com armadura e cavalo num cenário de fantasia.",
+      "en": "Two armoured figures and a horse in a fantasy setting."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/digital-09.webp",
+      "thumbnail": "/images/artworks/digital-09-thumb.webp",
+      "width": 841,
+      "height": 893,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 680,
+      "alt": {
+        "pt": "Duas figuras com armadura e cavalo num cenário de fantasia.",
+        "en": "Two armoured figures and a horse in a fantasy setting."
+      }
+    }
+  },
+  {
+    "id": "digital-10",
+    "catalogueNumber": "024",
+    "category": "editorial",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Capa ilustrada com figura armada e lettering.",
+      "en": "Illustrated cover with an armed figure and lettering."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/digital-10.webp",
+      "thumbnail": "/images/artworks/digital-10-thumb.webp",
+      "width": 550,
+      "height": 827,
+      "thumbnailWidth": 532,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Capa ilustrada com figura armada e lettering.",
+        "en": "Illustrated cover with an armed figure and lettering."
+      }
+    }
+  },
+  {
+    "id": "digital-11",
+    "catalogueNumber": "025",
+    "category": "editorial",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Capa com retrato feminino e identificação tipográfica impressa.",
+      "en": "Cover with a female portrait and printed typographic identification."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/digital-11.webp",
+      "thumbnail": "/images/artworks/digital-11-thumb.webp",
+      "width": 819,
+      "height": 1228,
+      "thumbnailWidth": 534,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Capa com retrato feminino e identificação tipográfica impressa.",
+        "en": "Cover with a female portrait and printed typographic identification."
+      }
+    }
+  },
+  {
+    "id": "digital-12",
+    "catalogueNumber": "026",
+    "category": "digital",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Composição vertical com arquitectura e cenas urbanas.",
+      "en": "Vertical composition with architecture and urban scenes."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/digital-12.webp",
+      "thumbnail": "/images/artworks/digital-12-thumb.webp",
+      "width": 510,
+      "height": 886,
+      "thumbnailWidth": 460,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Composição vertical com arquitectura e cenas urbanas.",
+        "en": "Vertical composition with architecture and urban scenes."
+      }
+    }
+  },
+  {
+    "id": "digital-13",
+    "catalogueNumber": "027",
+    "category": "editorial",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Capa com personagem de turbante, espada e lettering.",
+      "en": "Cover with a turbaned character, sword and lettering."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/digital-13.webp",
+      "thumbnail": "/images/artworks/digital-13-thumb.webp",
+      "width": 650,
+      "height": 945,
+      "thumbnailWidth": 550,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Capa com personagem de turbante, espada e lettering.",
+        "en": "Cover with a turbaned character, sword and lettering."
+      }
+    }
+  },
+  {
+    "id": "digital-14",
+    "catalogueNumber": "028",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Página de banda desenhada com diálogo em cenário histórico.",
+      "en": "Comic page with dialogue in a historical setting."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/digital-14.webp",
+      "thumbnail": "/images/artworks/digital-14-thumb.webp",
+      "width": 880,
+      "height": 1512,
+      "thumbnailWidth": 466,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Página de banda desenhada com diálogo em cenário histórico.",
+        "en": "Comic page with dialogue in a historical setting."
+      }
+    }
+  },
+  {
+    "id": "digital-15",
+    "catalogueNumber": "029",
+    "category": "digital",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Personagem junto a uma casa colorida e uma criatura de pescoço comprido.",
+      "en": "Character beside a colourful house and a long-necked creature."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/digital-15.webp",
+      "thumbnail": "/images/artworks/digital-15-thumb.webp",
+      "width": 524,
+      "height": 524,
+      "thumbnailWidth": 524,
+      "thumbnailHeight": 524,
+      "alt": {
+        "pt": "Personagem junto a uma casa colorida e uma criatura de pescoço comprido.",
+        "en": "Character beside a colourful house and a long-necked creature."
+      }
+    }
+  },
+  {
+    "id": "digital-16",
+    "catalogueNumber": "030",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Conjunto de três páginas de banda desenhada com personagens e interiores.",
+      "en": "Set of three comic pages with characters and interiors."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/digital-16.webp",
+      "thumbnail": "/images/artworks/digital-16-thumb.webp",
+      "width": 1692,
+      "height": 818,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 309,
+      "alt": {
+        "pt": "Conjunto de três páginas de banda desenhada com personagens e interiores.",
+        "en": "Set of three comic pages with characters and interiors."
+      }
+    }
+  },
+  {
+    "id": "digital-17",
+    "catalogueNumber": "031",
+    "category": "editorial",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Capa com película de cinema, figura fantástica e texto impresso.",
+      "en": "Cover with a film strip, a fantasy figure and printed text."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/digital-17.webp",
+      "thumbnail": "/images/artworks/digital-17-thumb.webp",
+      "width": 551,
+      "height": 827,
+      "thumbnailWidth": 533,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Capa com película de cinema, figura fantástica e texto impresso.",
+        "en": "Cover with a film strip, a fantasy figure and printed text."
+      }
+    }
+  },
+  {
+    "id": "digital-18",
+    "catalogueNumber": "032",
+    "category": "editorial",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Capa com retrato masculino e um grupo de figuras em primeiro plano.",
+      "en": "Cover with a male portrait and a group of figures in the foreground."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/digital-18.webp",
+      "thumbnail": "/images/artworks/digital-18-thumb.webp",
+      "width": 1072,
+      "height": 1800,
+      "thumbnailWidth": 477,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Capa com retrato masculino e um grupo de figuras em primeiro plano.",
+        "en": "Cover with a male portrait and a group of figures in the foreground."
+      }
+    }
+  },
+  {
+    "id": "digital-19",
+    "catalogueNumber": "033",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Conjunto de páginas de banda desenhada em tons verdes e dourados.",
+      "en": "Set of comic pages in green and golden tones."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/digital-19.webp",
+      "thumbnail": "/images/artworks/digital-19-thumb.webp",
+      "width": 1697,
+      "height": 818,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 308,
+      "alt": {
+        "pt": "Conjunto de páginas de banda desenhada em tons verdes e dourados.",
+        "en": "Set of comic pages in green and golden tones."
+      }
+    }
+  },
+  {
+    "id": "digital-20",
+    "catalogueNumber": "034",
+    "category": "digital",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Duas personagens desenhadas em movimento sobre fundo branco.",
+      "en": "Two drawn characters in motion on a white background."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/digital-20.webp",
+      "thumbnail": "/images/artworks/digital-20-thumb.webp",
+      "width": 686,
+      "height": 866,
+      "thumbnailWidth": 634,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Duas personagens desenhadas em movimento sobre fundo branco.",
+        "en": "Two drawn characters in motion on a white background."
+      }
+    }
+  },
+  {
+    "id": "digital-21",
+    "catalogueNumber": "035",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Vinheta horizontal com retrato de uma personagem de chapéu.",
+      "en": "Horizontal panel with a portrait of a character wearing a hat."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/digital-21.webp",
+      "thumbnail": "/images/artworks/digital-21-thumb.webp",
+      "width": 1800,
+      "height": 860,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 306,
+      "alt": {
+        "pt": "Vinheta horizontal com retrato de uma personagem de chapéu.",
+        "en": "Horizontal panel with a portrait of a character wearing a hat."
+      }
+    }
+  },
+  {
+    "id": "digital-22",
+    "catalogueNumber": "036",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Página de banda desenhada com uma rua estreita e arquitectura.",
+      "en": "Comic page with a narrow street and architecture."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/digital-22.webp",
+      "thumbnail": "/images/artworks/digital-22-thumb.webp",
+      "width": 827,
+      "height": 1169,
+      "thumbnailWidth": 566,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Página de banda desenhada com uma rua estreita e arquitectura.",
+        "en": "Comic page with a narrow street and architecture."
+      }
+    }
+  },
+  {
+    "id": "digital-23",
+    "catalogueNumber": "037",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Montagem de vinhetas com personagens e cenas de acção.",
+      "en": "Montage of panels with characters and action scenes."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/digital-23.webp",
+      "thumbnail": "/images/artworks/digital-23-thumb.webp",
+      "width": 1169,
+      "height": 976,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 534,
+      "alt": {
+        "pt": "Montagem de vinhetas com personagens e cenas de acção.",
+        "en": "Montage of panels with characters and action scenes."
+      }
+    }
+  },
+  {
+    "id": "digital-24",
+    "catalogueNumber": "038",
+    "category": "comics",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Página de banda desenhada com três cenas e diálogo.",
+      "en": "Comic page with three scenes and dialogue."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/digital-24.webp",
+      "thumbnail": "/images/artworks/digital-24-thumb.webp",
+      "width": 827,
+      "height": 1169,
+      "thumbnailWidth": 566,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Página de banda desenhada com três cenas e diálogo.",
+        "en": "Comic page with three scenes and dialogue."
+      }
+    }
+  },
+  {
+    "id": "digital-25",
+    "catalogueNumber": "039",
+    "category": "editorial",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Capa com figura feminina num cenário de floresta e lettering.",
+      "en": "Cover with a female figure in a forest setting and lettering."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/digital-25.webp",
+      "thumbnail": "/images/artworks/digital-25-thumb.webp",
+      "width": 569,
+      "height": 826,
+      "thumbnailWidth": 551,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Capa com figura feminina num cenário de floresta e lettering.",
+        "en": "Cover with a female figure in a forest setting and lettering."
+      }
+    }
+  },
+  {
+    "id": "digital-26",
+    "catalogueNumber": "040",
+    "category": "editorial",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Capa com fachada colorida, bicicleta e lettering.",
+      "en": "Cover with a colourful facade, a bicycle and lettering."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/digital-26.webp",
+      "thumbnail": "/images/artworks/digital-26-thumb.webp",
+      "width": 1233,
+      "height": 1800,
+      "thumbnailWidth": 548,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Capa com fachada colorida, bicicleta e lettering.",
+        "en": "Cover with a colourful facade, a bicycle and lettering."
+      }
+    }
+  },
+  {
+    "id": "digital-27",
+    "catalogueNumber": "041",
+    "category": "editorial",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Capa com duas personagens sentadas num banco e texto impresso.",
+      "en": "Cover with two characters sitting on a bench and printed text."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/digital-27.webp",
+      "thumbnail": "/images/artworks/digital-27-thumb.webp",
+      "width": 1273,
+      "height": 1800,
+      "thumbnailWidth": 566,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Capa com duas personagens sentadas num banco e texto impresso.",
+        "en": "Cover with two characters sitting on a bench and printed text."
+      }
+    }
+  },
+  {
+    "id": "watercolour-01",
+    "catalogueNumber": "042",
+    "category": "watercolour",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Composição vertical de arquitectura com torre e lavagens de cor.",
+      "en": "Vertical architectural composition with a tower and washes of colour."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/watercolour-01.webp",
+      "thumbnail": "/images/artworks/watercolour-01-thumb.webp",
+      "width": 530,
+      "height": 850,
+      "thumbnailWidth": 499,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Composição vertical de arquitectura com torre e lavagens de cor.",
+        "en": "Vertical architectural composition with a tower and washes of colour."
+      }
+    }
+  },
+  {
+    "id": "watercolour-02",
+    "catalogueNumber": "043",
+    "category": "editorial",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Capa com retrato feminino, aves e lettering.",
+      "en": "Cover with a female portrait, birds and lettering."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/watercolour-02.webp",
+      "thumbnail": "/images/artworks/watercolour-02-thumb.webp",
+      "width": 580,
+      "height": 893,
+      "thumbnailWidth": 520,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Capa com retrato feminino, aves e lettering.",
+        "en": "Cover with a female portrait, birds and lettering."
+      }
+    }
+  },
+  {
+    "id": "watercolour-03",
+    "catalogueNumber": "044",
+    "category": "watercolour",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Personagem de chapéu a tocar um instrumento de sopro.",
+      "en": "Character wearing a hat and playing a wind instrument."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/watercolour-03.webp",
+      "thumbnail": "/images/artworks/watercolour-03-thumb.webp",
+      "width": 787,
+      "height": 787,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 640,
+      "alt": {
+        "pt": "Personagem de chapéu a tocar um instrumento de sopro.",
+        "en": "Character wearing a hat and playing a wind instrument."
+      }
+    }
+  },
+  {
+    "id": "watercolour-04",
+    "catalogueNumber": "045",
+    "category": "watercolour",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Figura de fato junto a um portão e cenário de jardim.",
+      "en": "Suited figure beside a gate and garden setting."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/watercolour-04.webp",
+      "thumbnail": "/images/artworks/watercolour-04-thumb.webp",
+      "width": 720,
+      "height": 720,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 640,
+      "alt": {
+        "pt": "Figura de fato junto a um portão e cenário de jardim.",
+        "en": "Suited figure beside a gate and garden setting."
+      }
+    }
+  },
+  {
+    "id": "watercolour-05",
+    "catalogueNumber": "046",
+    "category": "watercolour",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Duas personagens numa rua com eléctrico ao fundo.",
+      "en": "Two characters on a street with a tram in the background."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/watercolour-05.webp",
+      "thumbnail": "/images/artworks/watercolour-05-thumb.webp",
+      "width": 604,
+      "height": 604,
+      "thumbnailWidth": 604,
+      "thumbnailHeight": 604,
+      "alt": {
+        "pt": "Duas personagens numa rua com eléctrico ao fundo.",
+        "en": "Two characters on a street with a tram in the background."
+      }
+    }
+  },
+  {
+    "id": "watercolour-06",
+    "catalogueNumber": "047",
+    "category": "watercolour",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Personagem de cabelo claro diante de silhuetas e céu azul.",
+      "en": "Fair-haired character in front of silhouettes and a blue sky."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/watercolour-06.webp",
+      "thumbnail": "/images/artworks/watercolour-06-thumb.webp",
+      "width": 787,
+      "height": 787,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 640,
+      "alt": {
+        "pt": "Personagem de cabelo claro diante de silhuetas e céu azul.",
+        "en": "Fair-haired character in front of silhouettes and a blue sky."
+      }
+    }
+  },
+  {
+    "id": "watercolour-07",
+    "catalogueNumber": "048",
+    "category": "editorial",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Capa com personagens num cenário de fantasia e lettering.",
+      "en": "Cover with characters in a fantasy setting and lettering."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/watercolour-07.webp",
+      "thumbnail": "/images/artworks/watercolour-07-thumb.webp",
+      "width": 593,
+      "height": 815,
+      "thumbnailWidth": 582,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Capa com personagens num cenário de fantasia e lettering.",
+        "en": "Cover with characters in a fantasy setting and lettering."
+      }
+    }
+  },
+  {
+    "id": "watercolour-08",
+    "catalogueNumber": "049",
+    "category": "watercolour",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Grupo de personagens em ambiente histórico, em tons quentes.",
+      "en": "Group of characters in a historical setting in warm tones."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/watercolour-08.webp",
+      "thumbnail": "/images/artworks/watercolour-08-thumb.webp",
+      "width": 815,
+      "height": 677,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 532,
+      "alt": {
+        "pt": "Grupo de personagens em ambiente histórico, em tons quentes.",
+        "en": "Group of characters in a historical setting in warm tones."
+      }
+    }
+  },
+  {
+    "id": "watercolour-09",
+    "catalogueNumber": "050",
+    "category": "watercolour",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Composição de retratos e arquitectura em tons dourados.",
+      "en": "Composition of portraits and architecture in golden tones."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/watercolour-09.webp",
+      "thumbnail": "/images/artworks/watercolour-09-thumb.webp",
+      "width": 847,
+      "height": 602,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 455,
+      "alt": {
+        "pt": "Composição de retratos e arquitectura em tons dourados.",
+        "en": "Composition of portraits and architecture in golden tones."
+      }
+    }
+  },
+  {
+    "id": "watercolour-10",
+    "catalogueNumber": "051",
+    "category": "watercolour",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Personagem vista de costas sobre uma paisagem urbana.",
+      "en": "Character seen from behind above a cityscape."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/watercolour-10.webp",
+      "thumbnail": "/images/artworks/watercolour-10-thumb.webp",
+      "width": 873,
+      "height": 850,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 623,
+      "alt": {
+        "pt": "Personagem vista de costas sobre uma paisagem urbana.",
+        "en": "Character seen from behind above a cityscape."
+      }
+    }
+  },
+  {
+    "id": "watercolour-11",
+    "catalogueNumber": "052",
+    "category": "watercolour",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Figura com chapéu segurando uma composição ilustrada.",
+      "en": "Figure wearing a hat and holding an illustrated composition."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/watercolour-11.webp",
+      "thumbnail": "/images/artworks/watercolour-11-thumb.webp",
+      "width": 680,
+      "height": 709,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 667,
+      "alt": {
+        "pt": "Figura com chapéu segurando uma composição ilustrada.",
+        "en": "Figure wearing a hat and holding an illustrated composition."
+      }
+    }
+  },
+  {
+    "id": "watercolour-12",
+    "catalogueNumber": "053",
+    "category": "watercolour",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Rosto fantástico verde com ramificações sobre fundo claro.",
+      "en": "Green fantasy face with branching forms on a light background."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/watercolour-12.webp",
+      "thumbnail": "/images/artworks/watercolour-12-thumb.webp",
+      "width": 787,
+      "height": 787,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 640,
+      "alt": {
+        "pt": "Rosto fantástico verde com ramificações sobre fundo claro.",
+        "en": "Green fantasy face with branching forms on a light background."
+      }
+    }
+  },
+  {
+    "id": "watercolour-13",
+    "catalogueNumber": "054",
+    "category": "editorial",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Capa com personagem de camisola às riscas e lettering.",
+      "en": "Cover with a character wearing a striped shirt and lettering."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/watercolour-13.webp",
+      "thumbnail": "/images/artworks/watercolour-13-thumb.webp",
+      "width": 720,
+      "height": 720,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 640,
+      "alt": {
+        "pt": "Capa com personagem de camisola às riscas e lettering.",
+        "en": "Cover with a character wearing a striped shirt and lettering."
+      }
+    }
+  },
+  {
+    "id": "watercolour-14",
+    "catalogueNumber": "055",
+    "category": "editorial",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Capa com figura masculina, paisagem escura e lettering.",
+      "en": "Cover with a male figure, dark landscape and lettering."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/watercolour-14.webp",
+      "thumbnail": "/images/artworks/watercolour-14-thumb.webp",
+      "width": 580,
+      "height": 893,
+      "thumbnailWidth": 520,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Capa com figura masculina, paisagem escura e lettering.",
+        "en": "Cover with a male figure, dark landscape and lettering."
+      }
+    }
+  },
+  {
+    "id": "watercolour-15",
+    "catalogueNumber": "056",
+    "category": "watercolour",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Personagem com espada sobre fundo de arquitectura.",
+      "en": "Character with a sword against an architectural background."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/watercolour-15.webp",
+      "thumbnail": "/images/artworks/watercolour-15-thumb.webp",
+      "width": 575,
+      "height": 780,
+      "thumbnailWidth": 575,
+      "thumbnailHeight": 780,
+      "alt": {
+        "pt": "Personagem com espada sobre fundo de arquitectura.",
+        "en": "Character with a sword against an architectural background."
+      }
+    }
+  },
+  {
+    "id": "watercolour-16",
+    "catalogueNumber": "057",
+    "category": "watercolour",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Composição azul com figura feminina e elementos fantásticos.",
+      "en": "Blue composition with a female figure and fantasy elements."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/watercolour-16.webp",
+      "thumbnail": "/images/artworks/watercolour-16-thumb.webp",
+      "width": 1123,
+      "height": 756,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 431,
+      "alt": {
+        "pt": "Composição azul com figura feminina e elementos fantásticos.",
+        "en": "Blue composition with a female figure and fantasy elements."
+      }
+    }
+  },
+  {
+    "id": "watercolour-17",
+    "catalogueNumber": "058",
+    "category": "watercolour",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Personagem pousada num ramo, rodeada por árvores e lavagens de cor.",
+      "en": "Character perched on a branch, surrounded by trees and washes of colour."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/watercolour-17.webp",
+      "thumbnail": "/images/artworks/watercolour-17-thumb.webp",
+      "width": 1102,
+      "height": 809,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 470,
+      "alt": {
+        "pt": "Personagem pousada num ramo, rodeada por árvores e lavagens de cor.",
+        "en": "Character perched on a branch, surrounded by trees and washes of colour."
+      }
+    }
+  },
+  {
+    "id": "watercolour-18",
+    "catalogueNumber": "059",
+    "category": "watercolour",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Personagem de costas diante de uma porta iluminada.",
+      "en": "Character seen from behind in front of an illuminated door."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/watercolour-18.webp",
+      "thumbnail": "/images/artworks/watercolour-18-thumb.webp",
+      "width": 797,
+      "height": 787,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 632,
+      "alt": {
+        "pt": "Personagem de costas diante de uma porta iluminada.",
+        "en": "Character seen from behind in front of an illuminated door."
+      }
+    }
+  },
+  {
+    "id": "watercolour-19",
+    "catalogueNumber": "060",
+    "category": "watercolour",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Rosto e mão em primeiro plano com um olho azul em destaque.",
+      "en": "Close-up face and hand with a prominent blue eye."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/watercolour-19.webp",
+      "thumbnail": "/images/artworks/watercolour-19-thumb.webp",
+      "width": 601,
+      "height": 850,
+      "thumbnailWidth": 566,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Rosto e mão em primeiro plano com um olho azul em destaque.",
+        "en": "Close-up face and hand with a prominent blue eye."
+      }
+    }
+  },
+  {
+    "id": "watercolour-20",
+    "catalogueNumber": "061",
+    "category": "watercolour",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Gato de botas e chapéu entre folhas e ramos.",
+      "en": "Cat wearing boots and a hat among leaves and branches."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/watercolour-20.webp",
+      "thumbnail": "/images/artworks/watercolour-20-thumb.webp",
+      "width": 1219,
+      "height": 1219,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 640,
+      "alt": {
+        "pt": "Gato de botas e chapéu entre folhas e ramos.",
+        "en": "Cat wearing boots and a hat among leaves and branches."
+      }
+    }
+  },
+  {
+    "id": "watercolour-21",
+    "catalogueNumber": "062",
+    "category": "watercolour",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Personagens em primeiro plano, com edifícios, árvores e uma bola.",
+      "en": "Foreground characters with buildings, trees and a ball."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/watercolour-21.webp",
+      "thumbnail": "/images/artworks/watercolour-21-thumb.webp",
+      "width": 1651,
+      "height": 1247,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 483,
+      "alt": {
+        "pt": "Personagens em primeiro plano, com edifícios, árvores e uma bola.",
+        "en": "Foreground characters with buildings, trees and a ball."
+      }
+    }
+  },
+  {
+    "id": "children-01",
+    "catalogueNumber": "063",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Criança de capuz vermelho e personagens fantásticas numa paisagem.",
+      "en": "Child in a red hood and fantasy characters in a landscape."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/children-01.webp",
+      "thumbnail": "/images/artworks/children-01-thumb.webp",
+      "width": 694,
+      "height": 709,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 654,
+      "alt": {
+        "pt": "Criança de capuz vermelho e personagens fantásticas numa paisagem.",
+        "en": "Child in a red hood and fantasy characters in a landscape."
+      }
+    }
+  },
+  {
+    "id": "children-02",
+    "catalogueNumber": "064",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Animais e personagens numa composição colorida.",
+      "en": "Animals and characters in a colourful composition."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/children-02.webp",
+      "thumbnail": "/images/artworks/children-02-thumb.webp",
+      "width": 1016,
+      "height": 630,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 397,
+      "alt": {
+        "pt": "Animais e personagens numa composição colorida.",
+        "en": "Animals and characters in a colourful composition."
+      }
+    }
+  },
+  {
+    "id": "children-03",
+    "catalogueNumber": "065",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Personagens à volta de uma figura feminina, em tons vermelhos e dourados.",
+      "en": "Characters surrounding a female figure in red and golden tones."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/children-03.webp",
+      "thumbnail": "/images/artworks/children-03-thumb.webp",
+      "width": 1011,
+      "height": 984,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 623,
+      "alt": {
+        "pt": "Personagens à volta de uma figura feminina, em tons vermelhos e dourados.",
+        "en": "Characters surrounding a female figure in red and golden tones."
+      }
+    }
+  },
+  {
+    "id": "children-04",
+    "catalogueNumber": "066",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Quarto colorido com cama redonda, livros e personagens.",
+      "en": "Colourful bedroom with a round bed, books and characters."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/children-04.webp",
+      "thumbnail": "/images/artworks/children-04-thumb.webp",
+      "width": 547,
+      "height": 546,
+      "thumbnailWidth": 547,
+      "thumbnailHeight": 546,
+      "alt": {
+        "pt": "Quarto colorido com cama redonda, livros e personagens.",
+        "en": "Colourful bedroom with a round bed, books and characters."
+      }
+    }
+  },
+  {
+    "id": "children-05",
+    "catalogueNumber": "067",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Duas figuras num cenário de formas decorativas e objectos suspensos.",
+      "en": "Two figures in a setting of decorative shapes and suspended objects."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/children-05.webp",
+      "thumbnail": "/images/artworks/children-05-thumb.webp",
+      "width": 780,
+      "height": 575,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 472,
+      "alt": {
+        "pt": "Duas figuras num cenário de formas decorativas e objectos suspensos.",
+        "en": "Two figures in a setting of decorative shapes and suspended objects."
+      }
+    }
+  },
+  {
+    "id": "children-06",
+    "catalogueNumber": "068",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Página ilustrada com criança de cabelo vermelho, serpente e texto impresso.",
+      "en": "Illustrated page with a red-haired child, snake and printed text."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/children-06.webp",
+      "thumbnail": "/images/artworks/children-06-thumb.webp",
+      "width": 1800,
+      "height": 1175,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 418,
+      "alt": {
+        "pt": "Página ilustrada com criança de cabelo vermelho, serpente e texto impresso.",
+        "en": "Illustrated page with a red-haired child, snake and printed text."
+      }
+    }
+  },
+  {
+    "id": "children-07",
+    "catalogueNumber": "069",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Animais reunidos à volta de uma mesa num interior.",
+      "en": "Animals gathered around a table in an interior."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/children-07.webp",
+      "thumbnail": "/images/artworks/children-07-thumb.webp",
+      "width": 683,
+      "height": 709,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 664,
+      "alt": {
+        "pt": "Animais reunidos à volta de uma mesa num interior.",
+        "en": "Animals gathered around a table in an interior."
+      }
+    }
+  },
+  {
+    "id": "children-08",
+    "catalogueNumber": "070",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Criatura marinha com dentes, barco e ondas.",
+      "en": "Toothed sea creature, boat and waves."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "portrait",
+    "image": {
+      "src": "/images/artworks/children-08.webp",
+      "thumbnail": "/images/artworks/children-08-thumb.webp",
+      "width": 617,
+      "height": 866,
+      "thumbnailWidth": 570,
+      "thumbnailHeight": 800,
+      "alt": {
+        "pt": "Criatura marinha com dentes, barco e ondas.",
+        "en": "Toothed sea creature, boat and waves."
+      }
+    }
+  },
+  {
+    "id": "children-09",
+    "catalogueNumber": "071",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Personagens fantásticas sobre um fundo de formas roxas.",
+      "en": "Fantasy characters against a background of purple forms."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/children-09.webp",
+      "thumbnail": "/images/artworks/children-09-thumb.webp",
+      "width": 1012,
+      "height": 748,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 473,
+      "alt": {
+        "pt": "Personagens fantásticas sobre um fundo de formas roxas.",
+        "en": "Fantasy characters against a background of purple forms."
+      }
+    }
+  },
+  {
+    "id": "children-10",
+    "catalogueNumber": "072",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Figura de cabelo claro junto a uma árvore fantástica sobre fundo claro.",
+      "en": "Fair-haired figure beside a fantasy tree on a light background."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/children-10.webp",
+      "thumbnail": "/images/artworks/children-10-thumb.webp",
+      "width": 1063,
+      "height": 709,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 427,
+      "alt": {
+        "pt": "Figura de cabelo claro junto a uma árvore fantástica sobre fundo claro.",
+        "en": "Fair-haired figure beside a fantasy tree on a light background."
+      }
+    }
+  },
+  {
+    "id": "children-11",
+    "catalogueNumber": "073",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Página em tons vermelhos com criança e formas decorativas.",
+      "en": "Page in red tones with a child and decorative forms."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/children-11.webp",
+      "thumbnail": "/images/artworks/children-11-thumb.webp",
+      "width": 1080,
+      "height": 705,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 418,
+      "alt": {
+        "pt": "Página em tons vermelhos com criança e formas decorativas.",
+        "en": "Page in red tones with a child and decorative forms."
+      }
+    }
+  },
+  {
+    "id": "children-12",
+    "catalogueNumber": "074",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Grupo de personagens e criaturas alinhadas sobre fundo branco.",
+      "en": "Group of characters and creatures arranged on a white background."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/children-12.webp",
+      "thumbnail": "/images/artworks/children-12-thumb.webp",
+      "width": 1299,
+      "height": 650,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 320,
+      "alt": {
+        "pt": "Grupo de personagens e criaturas alinhadas sobre fundo branco.",
+        "en": "Group of characters and creatures arranged on a white background."
+      }
+    }
+  },
+  {
+    "id": "children-13",
+    "catalogueNumber": "075",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Página ilustrada com criança sobre uma serpente num rio.",
+      "en": "Illustrated page with a child on a snake in a river."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/children-13.webp",
+      "thumbnail": "/images/artworks/children-13-thumb.webp",
+      "width": 1800,
+      "height": 1175,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 418,
+      "alt": {
+        "pt": "Página ilustrada com criança sobre uma serpente num rio.",
+        "en": "Illustrated page with a child on a snake in a river."
+      }
+    }
+  },
+  {
+    "id": "children-14",
+    "catalogueNumber": "076",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Criança e figura de grande dimensão num cenário de floresta.",
+      "en": "Child and a large figure in a forest setting."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/children-14.webp",
+      "thumbnail": "/images/artworks/children-14-thumb.webp",
+      "width": 1063,
+      "height": 1063,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 640,
+      "alt": {
+        "pt": "Criança e figura de grande dimensão num cenário de floresta.",
+        "en": "Child and a large figure in a forest setting."
+      }
+    }
+  },
+  {
+    "id": "children-15",
+    "catalogueNumber": "077",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Página em tons laranja com criança, raposa e texto impresso.",
+      "en": "Page in orange tones with a child, fox and printed text."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/children-15.webp",
+      "thumbnail": "/images/artworks/children-15-thumb.webp",
+      "width": 1800,
+      "height": 1175,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 418,
+      "alt": {
+        "pt": "Página em tons laranja com criança, raposa e texto impresso.",
+        "en": "Page in orange tones with a child, fox and printed text."
+      }
+    }
+  },
+  {
+    "id": "children-16",
+    "catalogueNumber": "078",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Cena fantástica com objectos mecânicos, chapéu e personagem.",
+      "en": "Fantasy scene with mechanical objects, a hat and a character."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/children-16.webp",
+      "thumbnail": "/images/artworks/children-16-thumb.webp",
+      "width": 921,
+      "height": 695,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 483,
+      "alt": {
+        "pt": "Cena fantástica com objectos mecânicos, chapéu e personagem.",
+        "en": "Fantasy scene with mechanical objects, a hat and a character."
+      }
+    }
+  },
+  {
+    "id": "children-17",
+    "catalogueNumber": "079",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Criatura de longos membros junto a uma árvore.",
+      "en": "Long-limbed creature beside a tree."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/children-17.webp",
+      "thumbnail": "/images/artworks/children-17-thumb.webp",
+      "width": 882,
+      "height": 907,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 658,
+      "alt": {
+        "pt": "Criatura de longos membros junto a uma árvore.",
+        "en": "Long-limbed creature beside a tree."
+      }
+    }
+  },
+  {
+    "id": "children-18",
+    "catalogueNumber": "080",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Criança de cabelo vermelho com peixes e uma árvore numa paisagem dourada.",
+      "en": "Red-haired child with fish and a tree in a golden landscape."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "landscape",
+    "image": {
+      "src": "/images/artworks/children-18.webp",
+      "thumbnail": "/images/artworks/children-18-thumb.webp",
+      "width": 935,
+      "height": 701,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 480,
+      "alt": {
+        "pt": "Criança de cabelo vermelho com peixes e uma árvore numa paisagem dourada.",
+        "en": "Red-haired child with fish and a tree in a golden landscape."
+      }
+    }
+  },
+  {
+    "id": "children-19",
+    "catalogueNumber": "081",
+    "category": "children",
+    "title": {
+      "pt": "",
+      "en": ""
+    },
+    "description": {
+      "pt": "Personagem de camisola às riscas num ramo de árvore.",
+      "en": "Character wearing a striped shirt on a tree branch."
+    },
+    "credits": {
+      "pt": "",
+      "en": ""
+    },
+    "temporary": false,
+    "format": "square",
+    "image": {
+      "src": "/images/artworks/children-19.webp",
+      "thumbnail": "/images/artworks/children-19-thumb.webp",
+      "width": 1113,
+      "height": 1134,
+      "thumbnailWidth": 640,
+      "thumbnailHeight": 652,
+      "alt": {
+        "pt": "Personagem de camisola às riscas num ramo de árvore.",
+        "en": "Character wearing a striped shirt on a tree branch."
+      }
+    }
+  }
+]

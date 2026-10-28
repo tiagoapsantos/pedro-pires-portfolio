@@ -1,0 +1,27 @@
+{
+  "name": "pedro-pires-portfolio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "check": "astro check && tsc --noEmit",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "node --test tests/*.test.mjs",
+    "images": "node scripts/prepare-artworks.mjs",
+    "audit:build": "node scripts/audit-build.mjs"
+  },
+  "dependencies": {
+    "astro": "7.4.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.3",
+    "sharp": "0.35.5"
+  }
+}

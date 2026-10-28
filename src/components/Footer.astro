@@ -1,0 +1,6 @@
+---
+import { email, facebook, t } from '../data/site';
+import type { Locale } from '../data/site';
+const { locale } = Astro.props as { locale: Locale };
+---
+<footer class="site-footer"><div class="wrap footer-bottom"><span>Pedro Pires — {t(locale, 'Ilustração e Design', 'Illustration and Design')}</span><a href={'mailto:' + email}>Email</a><a href={facebook} target="_blank" rel="noopener noreferrer">Facebook<span class="sr-only">{t(locale, '(abre num novo separador)', '(opens in a new tab)')}</span></a></div></footer>

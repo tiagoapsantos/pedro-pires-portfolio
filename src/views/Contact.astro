@@ -1,0 +1,7 @@
+---
+import { email, facebook, t } from '../data/site';
+import type { Locale } from '../data/site';
+const { locale } = Astro.props as { locale: Locale };
+---
+<section class="page-heading wrap contact-heading"><h1>{t(locale, 'Contactos', 'Contact')}</h1></section>
+<section class="wrap contact-grid"><div class="contact-main"><h2 class="eyebrow">Email</h2><a class="email-link" href={'mailto:' + email}>{email} <span aria-hidden="true">↗</span></a></div><aside class="contact-aside"><h2 class="eyebrow">Facebook</h2><a class="arrow-link" href={facebook} target="_blank" rel="noopener noreferrer">Pedro Pires Illustration <span aria-hidden="true">↗</span><span class="sr-only">{t(locale, '(abre num novo separador)', '(opens in a new tab)')}</span></a></aside></section>

@@ -1,0 +1,6 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { href } from '../data/site';
+const base = import.meta.env.BASE_URL;
+---
+<SiteLayout locale="pt" page="home" description="Página não encontrada / Page not found." is404><section class="page-heading wrap"><h1>404</h1></section><section class="wrap about-details"><p class="large-copy">Página não encontrada.</p><p lang="en">Page not found.</p><div class="about-links"><a class="arrow-link" href={href('pt','home',base)}>Início <span aria-hidden="true">↗</span></a><a class="arrow-link" lang="en" href={href('en','home',base)}>Home <span aria-hidden="true">↗</span></a></div></section></SiteLayout>

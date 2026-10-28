@@ -1,0 +1,18 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import Home from '../views/Home.astro';
+import Portfolio from '../views/Portfolio.astro';
+import About from '../views/About.astro';
+import Contact from '../views/Contact.astro';
+import { paths, pages, t } from '../data/site';
+import type { Locale, Page } from '../data/site';
+export function getStaticPaths() { return (['pt', 'en'] as Locale[]).flatMap(locale => pages.map(page => ({ params: { slug: paths[locale][page].replace(/\/$/, '') || undefined }, props: { locale, page } }))); }
+const { locale, page } = Astro.props as { locale: Locale; page: Page };
+const descriptions: Record<Page, string> = {
+  home: t(locale, 'Pedro Pires — Ilustração e Design.', 'Pedro Pires — Illustration and Design.'),
+  portfolio: t(locale, 'Portfolio de ilustração de Pedro Pires.', 'Illustration portfolio by Pedro Pires.'),
+  about: t(locale, 'Pedro Pires — Ilustração e Design.', 'Pedro Pires — Illustration and Design.'),
+  contact: t(locale, 'Contactos de Pedro Pires: email e Facebook.', 'Contact Pedro Pires: email and Facebook.'),
+};
+---
+<SiteLayout locale={locale} page={page} description={descriptions[page]}>{page === 'home' ? <Home locale={locale}/> : page === 'portfolio' ? <Portfolio locale={locale}/> : page === 'about' ? <About locale={locale}/> : <Contact locale={locale}/>}</SiteLayout>
