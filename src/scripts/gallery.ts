@@ -52,6 +52,19 @@ for (const root of document.querySelectorAll<HTMLElement>('[data-gallery]')) {
     root.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach(filter => filter.setAttribute('aria-pressed', String(filter === button)));
     root.querySelectorAll<HTMLElement>('[data-card]').forEach(card => card.hidden = category !== 'all' && card.dataset.category !== category);
     root.querySelector<HTMLElement>('[data-empty]')!.hidden = visible.length > 0;
+    history.replaceState(null, '', category === 'all' ? location.pathname + location.search : '#' + category);
     root.querySelector('[data-count]')!.textContent = visible.length + (pt ? (visible.length === 1 ? ' imagem' : ' imagens') : (visible.length === 1 ? ' image' : ' images'));
   });
+  // Category links from the Homepage use the same buttons and filtering logic.
+  const filters = Array.from(root.querySelectorAll<HTMLButtonElement>('[data-filter]'));
+  if (filters.length) {
+    const applyCategoryHash = () => {
+      const category = location.hash.slice(1);
+      const filter = filters.find(button => button.dataset.filter === category);
+      if (filter) filter.click();
+      else if (!category) filters.find(button => button.dataset.filter === 'all')?.click();
+    };
+    applyCategoryHash();
+    window.addEventListener('hashchange', applyCategoryHash);
+  }
 }

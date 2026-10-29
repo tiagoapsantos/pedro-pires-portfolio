@@ -32,17 +32,8 @@ body{font-size:16px;font-weight:400;line-height:1.65}
 @media(max-width:600px){.wordmark>span{font-size:46px}.wordmark small{font-size:13px}.site-header{gap:16px;padding-block:20px}.site-header nav{gap:10px}.site-header nav a{font-size:19px;padding-block:9px}.hero h1{font-size:clamp(125px,32vw,185px);margin-bottom:25px}.hero-discipline{font-size:12px;max-width:none}.hero-copy .arrow-link{font-size:13px}.page-heading h1{font-size:76px}.section-heading h2{font-size:11px;letter-spacing:.06em}.filter-button{font-size:13px}.email-link{font-size:clamp(22px,4.8vw,30px)}.footer-bottom{font-size:11px}}
 @media(max-width:360px){.site-header nav{gap:8px}.site-header nav a{font-size:17px;letter-spacing:-.045em}.hero h1{font-size:124px}.language-link{font-size:13px}.email-link{font-size:20px}.section-heading .arrow-link{font-size:13px}}
 
-/* Homepage only: full-width five-panel opening and evenly scaled artwork pairs. */
+/* Homepage canvas; the composition lives in Home.astro. */
 body:has(.home-hero){--paper:#000}
-.home-hero{padding-block:18px 44px}.home-intro{display:block;margin-bottom:14px}.home-intro-details{display:flex;justify-content:space-between;align-items:center;gap:20px;min-width:0}.home-intro-details p{font-size:14px;color:var(--muted);margin:0}.home-intro-details .arrow-link{width:auto;min-width:120px;font-weight:500}.home-main-image{display:block;width:100%;height:auto;max-height:none;object-fit:contain;border:0;box-shadow:none;background:transparent}
-.home-work .section-heading{margin-bottom:32px}.home-work .gallery-featured .gallery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(26px,3vw,48px);align-items:start}.home-work .gallery-featured .artwork-card:nth-child(n){grid-column:auto;grid-row:auto;margin:0;padding:0;width:100%}.home-work .artwork-open{background:transparent}.home-work .artwork-open img{position:static;width:100%;height:auto;max-height:none;object-fit:contain}
-@media(max-width:850px){.home-hero{padding-block:18px 40px}.home-intro-details p{font-size:13px}}
-@media(max-width:600px){.home-hero{padding-block:14px 30px}.home-intro{margin-bottom:12px}.home-intro-details{display:flex;justify-content:space-between;align-items:center;gap:16px;min-width:0}.home-intro-details p{font-size:12px;margin:0}.home-intro-details .arrow-link{width:auto;min-width:110px;font-size:13px;gap:18px}.home-work .gallery-featured .gallery-grid{grid-template-columns:1fr;gap:26px}.home-work .section-heading{margin-bottom:26px}}
-
-/* Single opening line; the five-panel illustration remains the main visual. */
-.home-hero .home-opening{font-family:var(--display);font-size:clamp(42px,6.4vw,92px);font-weight:400;line-height:1;letter-spacing:.005em;text-transform:uppercase;text-wrap:balance;margin:14px 0 24px}
-@media(max-width:600px){.home-hero .home-opening{font-size:clamp(42px,9vw,54px);line-height:1.04;margin:12px 0 18px}}
-
 body:has(.home-hero) .footer-bottom>span:first-child{display:none}
 
 /* Editorial Bold — scoped to the masthead identity. */
@@ -62,10 +53,7 @@ body:has(.home-hero) .footer-bottom>span:first-child{display:none}
 @media(max-width:600px){.portfolio-section .filter-list{gap:8px 20px}.portfolio-section .filter-button{font-size:16px;letter-spacing:-.02em;padding:10px 0}.portfolio-section .filter-bar{padding-bottom:20px}}
 
 /* Finishing rhythm: shared edges, natural artwork proportions and readable text. */
-.home-hero{padding-bottom:clamp(26px,3vw,40px)}
-.home-hero .home-opening{margin-top:10px;margin-bottom:clamp(18px,2vw,28px);line-height:1.04}
-.home-work .section-heading{margin-bottom:clamp(22px,2.4vw,32px)}
-.home-work .gallery-featured .gallery-grid{gap:clamp(24px,2.6vw,40px)}
+
 .portfolio-section>.gallery-grid{column-gap:clamp(24px,2.6vw,40px)}
 .site-header .wordmark>span{padding-bottom:7px;letter-spacing:.02em}
 .site-header .wordmark small{margin-top:7px;line-height:1.4}
@@ -79,4 +67,4 @@ body:has(.home-hero) .footer-bottom>span:first-child{display:none}
 .contact-aside p{max-width:38ch}
 .site-header nav a:hover,.language-link:hover,.arrow-link:hover,.footer-bottom a:hover,.viewer-arrow:hover:not(:disabled){color:#D8B477}
 a:focus-visible,button:focus-visible{outline-color:#D8B477}
-@media(max-width:600px){.home-work .gallery-featured .gallery-grid{gap:24px}.home-hero .home-opening{margin-top:8px;margin-bottom:18px}.site-header .wordmark>span{padding-bottom:7px}.site-header .wordmark small{margin-top:7px}.contact-grid{row-gap:30px}}
+@media(max-width:600px){.site-header .wordmark>span{padding-bottom:7px}.site-header .wordmark small{margin-top:7px}.contact-grid{row-gap:30px}}

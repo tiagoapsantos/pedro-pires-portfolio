@@ -1,9 +1,94 @@
 ---
 import Gallery from '../components/Gallery.astro';
+import { artworks, categories } from '../data/artworks';
 import { href, t, labels } from '../data/site';
 import type { Locale } from '../data/site';
 const { locale } = Astro.props as { locale: Locale };
 const base = import.meta.env.BASE_URL;
+const work = (id: string) => artworks.find(item => item.id === id)!;
+const mosaicRows = [
+  [work('digital-05'), work('digital-09')],
+  [work('children-19'), work('children-17'), work('watercolour-19')],
+  [work('digital-07')],
+];
+const mosaicArtworks = mosaicRows.flat();
+const aspect = (item: typeof artworks[number]) => item.image!.width / item.image!.height;
+const mosaicStyles = Object.fromEntries(mosaicRows.flatMap(row => {
+  const total = row.reduce((sum, item) => sum + aspect(item), 0);
+  return row.map(item => [`--share-${item.id}`, aspect(item) / total]);
+}));
+const explore = [
+  { category: categories.find(item => item.id === 'children')!, artwork: work('children-14') },
+  { category: categories.find(item => item.id === 'watercolour')!, artwork: work('watercolour-18') },
+  { category: categories.find(item => item.id === 'digital')!, artwork: work('digital-15') },
+];
 ---
-<section class="home-hero wrap"><h1 class="home-opening">{t(locale, 'Entre o traço e a imaginação.', 'Between line and imagination.')}</h1><img class="home-main-image" src={base + 'images/home/panels-2048.webp'} srcset={base + 'images/home/panels-1024.webp 1024w, ' + base + 'images/home/panels-2048.webp 2048w'} sizes="(min-width:1640px) 1480px, 91vw" width="2048" height="1302" alt={t(locale, 'Composição de cinco painéis verticais com personagens ilustradas, sobre fundo preto.', 'Composition of five vertical panels with illustrated characters on a black background.')} loading="eager" fetchpriority="high" decoding="async"/></section>
-<section class="work-section home-work wrap"><div class="section-heading"><h2>{t(locale, 'Selecção de ilustrações', 'Selected illustrations')}</h2><a class="arrow-link" href={href(locale, 'portfolio', base)}>{labels[locale].portfolio} <span aria-hidden="true">↗</span></a></div><Gallery locale={locale} featured/></section>
+<section class="home-hero wrap" aria-label={t(locale, 'Ilustração e Design', 'Illustration and Design')}>
+  <h1 class="sr-only">Pedro Pires — {t(locale, 'Ilustração e Design', 'Illustration and Design')}</h1>
+  <div class="home-main-frame"><img class="home-main-image" src={base + 'images/home/panels-2048.webp'} srcset={base + 'images/home/panels-1024.webp 1024w, ' + base + 'images/home/panels-2048.webp 2048w'} sizes="(min-width:1451px) 1523px, (min-width:400px) 105vw, calc(115.32vw - 41.52px)" width="2048" height="1302" alt={t(locale, 'Composição de cinco painéis verticais com personagens ilustradas, sobre fundo preto.', 'Composition of five vertical panels with illustrated characters on a black background.')} loading="eager" fetchpriority="high" decoding="async"/></div>
+</section>
+<section class="home-work wrap" aria-labelledby="home-selection" style={mosaicStyles}>
+  <h2 id="home-selection" class="sr-only">{t(locale, 'Selecção de ilustrações', 'Selected illustrations')}</h2>
+  <Gallery locale={locale} featured selection={mosaicArtworks}/>
+</section>
+<section class="home-explore wrap" aria-labelledby="home-explore-title">
+  <div class="section-heading">
+    <h2 id="home-explore-title">{t(locale, 'Explorar a Galeria', 'Explore the Gallery')}</h2>
+    <a class="arrow-link" href={href(locale, 'portfolio', base)}>{labels[locale].portfolio} <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="explore-grid">
+    {explore.map(({ category, artwork }) => <a class="explore-link" href={href(locale, 'portfolio', base) + '#' + category.id}>
+      <img src={base + artwork.image!.thumbnail!.replace(/^\//, '')} srcset={`${base + artwork.image!.thumbnail!.replace(/^\//, '')} ${artwork.image!.thumbnailWidth}w, ${base + artwork.image!.src.replace(/^\//, '')} ${artwork.image!.width}w`} sizes="(max-width:600px) calc(100vw - 36px), (min-width:1360px) 410px, 30vw" width={artwork.image!.width} height={artwork.image!.height} alt={artwork.image!.alt[locale]} loading="lazy" decoding="async"/>
+      <span>{category[locale]} <span aria-hidden="true">↗</span></span>
+    </a>)}
+  </div>
+</section>
+
+<style>
+  .home-hero { width: min(1320px, calc(100% - var(--space) * 2)); padding-block: clamp(22px, 3vw, 44px) clamp(22px, 2.2vw, 32px); }
+  /* Compensate only the source image's black side margins; all five panels remain visible. */
+  .home-main-frame { overflow: hidden; }
+  .home-main-image { width: 115.315315%; max-width: none; margin-left: -7.432432%; height: auto; object-fit: contain; }
+  .home-work, .home-explore { width: min(1320px, calc(100% - var(--space) * 2)); }
+  /* Justified rows follow the source proportions: two, three, then a panorama. */
+  .home-work :global(.gallery-featured .gallery-grid) {
+    --mosaic-gutter: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--mosaic-gutter);
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .home-work :global(.gallery-featured .artwork-card:nth-child(n)) {
+    flex: 0 0 calc((100% - var(--row-gaps) * var(--mosaic-gutter)) * var(--tile-share));
+    width: auto;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .home-work :global(.artwork-card:nth-child(1)) { --row-gaps: 1; --tile-share: var(--share-digital-05); }
+  .home-work :global(.artwork-card:nth-child(2)) { --row-gaps: 1; --tile-share: var(--share-digital-09); }
+  .home-work :global(.artwork-card:nth-child(3)) { --row-gaps: 2; --tile-share: var(--share-children-19); }
+  .home-work :global(.artwork-card:nth-child(4)) { --row-gaps: 2; --tile-share: var(--share-children-17); }
+  .home-work :global(.artwork-card:nth-child(5)) { --row-gaps: 2; --tile-share: var(--share-watercolour-19); }
+  .home-work :global(.artwork-card:nth-child(6)) { --row-gaps: 0; --tile-share: 1; }
+  .home-work :global(.artwork-open img) { width: 100%; height: auto; max-height: none; object-fit: contain; }
+  .home-work :global(.artwork-open:hover img) { opacity: 1; }
+  .home-explore { padding-block: clamp(48px, 6vw, 84px) clamp(56px, 7vw, 100px); }
+  .home-explore .section-heading { margin-bottom: 24px; padding-top: 16px; }
+  .explore-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(12px, 2vw, 28px); }
+  .explore-link { display: block; min-width: 0; text-decoration: none; }
+  .explore-link img { width: 100%; height: auto; }
+  .explore-link > span { display: flex; justify-content: space-between; gap: 12px; padding-block: 14px; font-size: 14px; line-height: 1.4; }
+  .explore-link > span > span { color: #d8b477; }
+  .explore-link:hover { color: #d8b477; }
+  @media (max-width: 600px) {
+    .home-hero { padding-block: 20px 22px; }
+    .home-work :global(.gallery-featured .gallery-grid) { flex-direction: column; }
+    .home-work :global(.gallery-featured .artwork-card:nth-child(n)) { flex: none; width: 100%; }
+    .explore-grid { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+    .home-explore .section-heading { gap: 16px; }
+    .home-explore .section-heading h2 { line-height: 1.4; }
+    .explore-link > span { padding-block: 12px; }
+  }
+</style>
