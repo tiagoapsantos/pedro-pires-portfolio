@@ -33,7 +33,7 @@ body{font-size:16px;font-weight:400;line-height:1.65}
 @media(max-width:360px){.site-header nav{gap:8px}.site-header nav a{font-size:17px;letter-spacing:-.045em}.hero h1{font-size:124px}.language-link{font-size:13px}.email-link{font-size:20px}.section-heading .arrow-link{font-size:13px}}
 
 /* Homepage canvas; the composition lives in Home.astro. */
-body:has(.home-hero){--paper:#000}
+
 body:has(.home-hero) .footer-bottom>span:first-child{display:none}
 
 /* Editorial Bold — scoped to the masthead identity. */
@@ -68,3 +68,8 @@ body:has(.home-hero) .footer-bottom>span:first-child{display:none}
 .site-header nav a:hover,.language-link:hover,.arrow-link:hover,.footer-bottom a:hover,.viewer-arrow:hover:not(:disabled){color:#D8B477}
 a:focus-visible,button:focus-visible{outline-color:#D8B477}
 @media(max-width:600px){.site-header .wordmark>span{padding-bottom:7px}.site-header .wordmark small{margin-top:7px}.contact-grid{row-gap:30px}}
+
+/* Shared painted canvas: original proportions and a quieter treatment off the homepage. */
+body[data-page]{background-color:#101112;background-image:linear-gradient(#101112a8,#101112a8),var(--home-painted-left),var(--home-painted-right);background-size:100% 100%,17.1% auto,16.6% auto;background-position:center top,left top,right top;background-repeat:no-repeat}
+
+@media(max-width:600px){.site-header{padding-block:16px;gap:12px}.site-header nav{gap:8px}.site-header nav a{min-height:44px}}
