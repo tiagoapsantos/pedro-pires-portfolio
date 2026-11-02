@@ -54,7 +54,7 @@ for(const f of files.filter(f=>/\.(?:html|css)$/.test(f))){
   assert.ok(s.includes('property="og:url" content="'+absolute(locale)+'"'));
 }
 const modules=html.flatMap(f=>[...fs.readFileSync(f,'utf8').matchAll(/<script type="module">([\s\S]*?)<\/script>/g)].map(m=>m[1]));
-assert.equal(modules.length,4);
+assert.equal(modules.length,9);
 for(const s of modules)assert.ok(!s.includes('catalogueNumber'));
 assert.ok(fs.existsSync(path.join(root,'.nojekyll')));
 const sitemap=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');

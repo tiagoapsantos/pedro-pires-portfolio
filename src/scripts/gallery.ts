@@ -7,6 +7,15 @@ for (const root of document.querySelectorAll<HTMLElement>('[data-gallery]')) {
   const all = JSON.parse(root.querySelector('[data-artworks]')!.textContent!) as Artwork[];
   const dialog = root.querySelector<HTMLDialogElement>('[data-viewer]')!;
   const media = root.querySelector<HTMLElement>('[data-media]')!;
+  const shell = root.querySelector<HTMLElement>('[data-fullscreen-shell]')!;
+  const fullscreen = root.querySelector<HTMLButtonElement>('[data-fullscreen]')!;
+  const syncFullscreen = () => { const active = document.fullscreenElement === shell; fullscreen.setAttribute('aria-pressed', String(active)); fullscreen.textContent = active ? (pt ? 'Sair do ecrã completo' : 'Exit fullscreen') : (pt ? 'Ecrã completo' : 'Fullscreen'); };
+  if (!document.fullscreenEnabled || !shell.requestFullscreen) fullscreen.hidden = true;
+  fullscreen.addEventListener('click', async () => { try { if (document.fullscreenElement === shell) await document.exitFullscreen(); else await shell.requestFullscreen(); } catch { syncFullscreen(); } });
+  document.addEventListener('fullscreenchange', syncFullscreen);
+  let touchStart: {x: number; y: number} | null = null;
+  media.addEventListener('touchstart', event => { if (event.touches.length === 1) touchStart = {x: event.touches[0].clientX, y: event.touches[0].clientY}; }, {passive: true});
+  media.addEventListener('touchend', event => { if (!touchStart || !event.changedTouches.length) return; const dx = event.changedTouches[0].clientX - touchStart.x; const dy = event.changedTouches[0].clientY - touchStart.y; touchStart = null; if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) navigate(dx < 0 ? 1 : -1); }, {passive: true});
   let visible = all;
   let index = 0;
   let opener: HTMLButtonElement | null = null;
@@ -20,7 +29,7 @@ for (const root of document.querySelectorAll<HTMLElement>('[data-gallery]')) {
     media.replaceChildren();
     if (item.image) {
       const image = document.createElement('img'); image.src = root.dataset.base + item.image.src.replace(/^\//, ''); image.alt = item.image.alt[locale]; image.width = item.image.width; image.height = item.image.height;
-      image.addEventListener('error', () => { media.textContent = pt ? 'Imagem indisponível. Pode continuar a navegar.' : 'Image unavailable. You can keep browsing.'; }); media.append(image);
+      image.className = 'viewer-image'; image.addEventListener('error', () => { media.textContent = pt ? 'Imagem indisponível. Pode continuar a navegar.' : 'Image unavailable. You can keep browsing.'; }); media.append(image);
     } else {
       const placeholder = document.createElement('div'); placeholder.className = 'viewer-placeholder';
       const number = document.createElement('span'); number.textContent = String(all.findIndex(work => work.id === item.id) + 1).padStart(2, '0');
@@ -46,7 +55,7 @@ for (const root of document.querySelectorAll<HTMLElement>('[data-gallery]')) {
       else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
     }
     if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') { event.preventDefault(); navigate(event.key === 'ArrowRight' ? 1 : -1); } });
-  dialog.addEventListener('close', () => { document.body.style.overflow = previousOverflow; opener?.focus({ preventScroll: true }); });
+  dialog.addEventListener('close', () => { if (document.fullscreenElement === shell) void document.exitFullscreen().catch(() => {}); document.body.style.overflow = previousOverflow; opener?.focus({ preventScroll: true }); });
   for (const button of root.querySelectorAll<HTMLButtonElement>('[data-filter]')) button.addEventListener('click', () => {
     const category = button.dataset.filter!; visible = selectArtworks(all, category);
     root.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach(filter => filter.setAttribute('aria-pressed', String(filter === button)));
